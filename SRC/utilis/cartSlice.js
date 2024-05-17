@@ -21,5 +21,5 @@ items:[]
 
 // Correctly export actions from the slice
 export const { addItem, removeItem, clearCart } = cartSlice.actions;
-
+// export the reducer
 export default cartSlice.reducer;
